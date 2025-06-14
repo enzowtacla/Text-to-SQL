@@ -1,1 +1,4 @@
 # Text-to-SQL
+Este projeto de Text-to-SQL, para a disciplina de Introdução a Banco de Dados da UTFPR, traduz perguntas em linguagem natural para consultas SQL. A aplicação oferece uma interface web interativa criada com Streamlit, permitindo a conexão com bancos de dados MySQL e PostgreSQL. Para a conversão do texto, o sistema utiliza o modelo de linguagem Llama 3, executado localmente através do Ollama.
+
+Para rodar o programa, é necessário ter Python, Ollama e um servidor de banco de dados instalados. Após baixar o modelo, crie um ambiente virtual e instale as dependências, streamlit, pandas, ollama, MySQLdb e psycopg2. É importante ajustar as variáveis de conexão nos arquivos MySQLConnection.py e PGConnection.py para as suas credenciais locais. Executar a aplicação com o comando streamlit run src/Interface.py a partir do diretório raiz do projeto.
